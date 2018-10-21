@@ -19,6 +19,10 @@ public class MyArrayList {
 
 		 class Inner {
 			 int i;
+
+			 public void getInfo(){
+				 System.out.println(i);
+			 }
 		}
 
 	}
