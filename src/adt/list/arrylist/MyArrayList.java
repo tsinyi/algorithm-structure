@@ -18,12 +18,14 @@ public class MyArrayList {
 	public void method(){
 
 		 class Inner {
-			 int i;
+			 int i=1;
 
 			 public void getInfo(){
 				 System.out.println(i);
 			 }
 		}
+
+		new Inner().getInfo();
 
 	}
 
